@@ -44,7 +44,8 @@
     	<command id="cmd_massforget_forgetdomains"/>
     </commandset>
 
-    <popup id="placesContext">    
+    <popup id="placesContext">
+    	<!-- domains -->    
         <menuitem id="massforget-forgetdomains"
             label="&massforget.forgetdomains;"
             insertafter="placesContext_deleteHost"
@@ -73,6 +74,7 @@
             forcehideselection="bookmark"
             />
             
+            <!-- hosts -->
         <menuitem id="massforget-forgetmultiple"
             label="&massforget.forgetmultiple;"
             insertafter="placesContext_deleteHost"
