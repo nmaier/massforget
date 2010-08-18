@@ -1,5 +1,4 @@
 content	massforget	chrome/content/
-skin	massforget	classic/1.0 chrome/skin/
 locale	massforget	en-US	chrome/locale/en-US/
 locale	massforget	de	chrome/locale/de/
 
