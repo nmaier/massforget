@@ -31,7 +31,7 @@ addEventListener('load', function(){
 					catch (ex) {}
 				}
 			}
-			for each (let sn in view.getSelectionNodes()) {
+			for each (let sn in (view.selectedNodes || view.getSelectionNodes())) {
 				add(sn);
 			}
 		}
