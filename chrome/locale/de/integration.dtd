@@ -1,3 +1,3 @@
-<!ENTITY massforget.forgetmultiple "Diese Webseiten vergessen">
-<!ENTITY massforget.forgetdomain "Gesamte Domain vergessen">
-<!ENTITY massforget.forgetdomains "Diese Domains vergessen">
+<!ENTITY massforget.forgetmultiple "Diese Webseiten löschen">
+<!ENTITY massforget.forgetdomain "Gesamte Domain löschen">
+<!ENTITY massforget.forgetdomains "Diese Domains löschen">

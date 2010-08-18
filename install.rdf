@@ -4,8 +4,8 @@
 		
 		<em:id>massforget@tn123.ath.cx</em:id>
 		<em:name>Mass Forget</em:name>
-		<em:description>Forget multiple sites</em:description>
-		<em:version>0.4</em:version>
+		<em:description>Forget about multiple sites and whole domains</em:description>
+		<em:version>0.5</em:version>
 
 		<em:creator>Nils Maier</em:creator>
 		<em:developer>Nils Maier</em:developer>
