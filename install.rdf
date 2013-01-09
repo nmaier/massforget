@@ -1,27 +1,45 @@
 <?xml version="1.0"?>
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
-	<Description about="urn:mozilla:install-manifest">
-		
-		<em:id>massforget@tn123.ath.cx</em:id>
-		<em:name>Mass Forget</em:name>
-		<em:description>Forget about multiple sites and whole domains</em:description>
-		<em:version>0.6</em:version>
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>massforget@tn123.ath.cx</em:id>
+    <em:type>2</em:type>
+    <em:name>Mass Forget</em:name>
+    <em:description>Forget about multiple sites and whole domains</em:description>
+    <em:version>0.7</em:version>
+    <em:creator>Nils Maier</em:creator>
+    <em:developer>Nils Maier</em:developer>
+    <em:homepageURL>https://tn123.org/</em:homepageURL>
 
-		<em:creator>Nils Maier</em:creator>
-		<em:developer>Nils Maier</em:developer>
-		
-		<em:homepageURL>http://tn123.ath.cx/</em:homepageURL>
-		
-		<!-- Firefox -->
-		<em:targetApplication>
-			<Description>
-				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
-				<em:minVersion>3.6</em:minVersion>
-				<em:maxVersion>4.0b6pre</em:maxVersion>
-			</Description>
-		</em:targetApplication>
-		
-		<em:localized><Description><em:description>Mehrere Seiten und ganze Domains vergessen</em:description><em:creator>Nils Maier</em:creator><em:locale>de</em:locale><em:name>Mass Forget</em:name><em:translator>Nils Maier</em:translator><em:homepageURL>http://tn123.ath.cx/reviewersext/</em:homepageURL><em:developer>Nils Maier</em:developer></Description></em:localized><em:localized><Description><em:description>Forget about multiple sites and whole domains</em:description><em:creator>Nils Maier</em:creator><em:locale>en-US</em:locale><em:name>Mass Forget</em:name><em:translator>Nils Maier</em:translator><em:translator>DerDieter</em:translator><em:homepageURL>http://tn123.ath.cx/reviewersext/</em:homepageURL><em:developer>Nils Maier</em:developer></Description></em:localized>
+    <!-- Firefox -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>13.0</em:minVersion>
+        <em:maxVersion>20.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
 
-	</Description>
+    <em:localized>
+      <Description>
+        <em:description>Mehrere Seiten und ganze Domains vergessen</em:description>
+        <em:creator>Nils Maier</em:creator>
+        <em:locale>de</em:locale>
+        <em:name>Mass Forget</em:name>
+        <em:translator>Nils Maier</em:translator>
+        <em:homepageURL>https://tn123.org/</em:homepageURL>
+        <em:developer>Nils Maier</em:developer>
+      </Description>
+    </em:localized>
+    <em:localized>
+      <Description>
+        <em:description>Forget about multiple sites and whole domains</em:description>
+        <em:creator>Nils Maier</em:creator>
+        <em:locale>en-US</em:locale>
+        <em:name>Mass Forget</em:name>
+        <em:translator>Nils Maier</em:translator>
+        <em:homepageURL>https://tn123.org/</em:homepageURL>
+        <em:developer>Nils Maier</em:developer>
+      </Description>
+    </em:localized>
+  </Description>
 </RDF>
