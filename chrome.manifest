@@ -1,6 +1,5 @@
-content	massforget	chrome/content/
-locale	massforget	en-US	chrome/locale/en-US/
-locale	massforget	de	chrome/locale/de/
+content	massforget	./
+locale	massforget	en-US	en-US/
+locale	massforget	de	de/
 
 overlay	chrome://browser/content/places/placesOverlay.xul	chrome://massforget/content/firefox.xul
-style	chrome://massforget/content/firefox.xul	chrome://massforget/skin/firefox.css
